@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title> </title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title"> </h1>
+</header>
+<p>Suppose <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" /> is a linear operator on <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20V" alt="V" title="V" />, a vector space over the field <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F" alt="F" title="F" />. If <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20p" alt="p" title="p" /> is a polynomial over <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F" alt="F" title="F" />, then <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20p%28T%29" alt="p(T)" title="p(T)" /> is again a linear operator on <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20V" alt="V" title="V" />. If <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20q" alt="q" title="q" /> is another polynomial over <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F" alt="F" title="F" />, then <br /><img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%0A%5Cbegin%7Balign%2A%7D%0A%20%20%20%20%28p%2Bq%29%28T%29%20%26%3D%20p%28T%29%20%2B%20q%28T%29%20%5C%5C%0A%20%20%20%20%28pq%29%28T%29%20%26%3D%20p%28T%29q%28T%29%0A%5Cend%7Balign%2A%7D%0A" alt="
+\begin{align*}
+    (p+q)(T) &amp;= p(T) + q(T) \\
+    (pq)(T) &amp;= p(T)q(T)
+\end{align*}
+" title="
+\begin{align*}
+    (p+q)(T) &amp;= p(T) + q(T) \\
+    (pq)(T) &amp;= p(T)q(T)
+\end{align*}
+" /><br /> Therefore, the collection of polynomials <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20p" alt="p" title="p" /> which annihilate <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" />, in the sense that <br /><img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%20p%28T%29%20%3D%200%2C%20" alt=" p(T) = 0, " title=" p(T) = 0, " /><br /> is an ideal in the polynomial algebra <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F%5Bx%5D" alt="F[x]" title="F[x]" />. It may be the zero ideal, i.e., it may be that <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" /> is not annihilated by any non-zero polynomial. But, that cannot happen if the space <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20V" alt="V" title="V" /> is finite-dimensional.</p>
+<p>Suppose <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" /> is a linear operator on the n-dimensional space <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20V" alt="V" title="V" />. Look at the first <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%28n%5E2%20%2B1%29" alt="(n^2 +1)" title="(n^2 +1)" /> powers of <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" />: <br /><img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%0A%5Cbegin%7Balign%2A%7D%0A%20%20%20%20I%2C%20T%2C%20T%5E2%2C%20%5Cldots%2C%20T%5E%7Bn%5E2%7D.%0A%5Cend%7Balign%2A%7D%0A" alt="
+\begin{align*}
+    I, T, T^2, \ldots, T^{n^2}.
+\end{align*}
+" title="
+\begin{align*}
+    I, T, T^2, \ldots, T^{n^2}.
+\end{align*}
+" /><br /> This is a sequence of <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20n%5E2%20%2B1" alt="n^2 +1" title="n^2 +1" /> operators in <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20L%28V%2CV%29" alt="L(V,V)" title="L(V,V)" />, the space of linear operators on <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20V" alt="V" title="V" />. The space <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20L%28V%2CV%29" alt="L(V,V)" title="L(V,V)" /> has dimension <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20n%5E2" alt="n^2" title="n^2" />. Therefore, that sequence of <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20n%5E2%2B1" alt="n^2+1" title="n^2+1" /> operators must be linearly dependent, i.e., we have <br /><img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%0A%5Cbegin%7Balign%2A%7D%0A%20%20%20%20c_0I%2Bc_1T%2B%5Cldots%2Bc_%7Bn%5E2%7DT%5E%7Bn%5E2%7D%20%3D%200%0A%5Cend%7Balign%2A%7D%0A" alt="
+\begin{align*}
+    c_0I+c_1T+\ldots+c_{n^2}T^{n^2} = 0
+\end{align*}
+" title="
+\begin{align*}
+    c_0I+c_1T+\ldots+c_{n^2}T^{n^2} = 0
+\end{align*}
+" /><br /> for some scalars <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20c_i" alt="c_i" title="c_i" />, not all zero. So, the ideal of polynomials which annihilate <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" /> contains a non-zero polynomial of degree <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20n%5E2" alt="n^2" title="n^2" /> or less.</p>
+<p>According to Theorem 5 of Chapter 4, every polynomial ideal consists of all multiples of some fixed monic polynomial, the generator of the ideal. Thus, there corresponds to the operator <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" /> a monic polynomial <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20p" alt="p" title="p" /> with this property: If <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20f" alt="f" title="f" /> is a polynomial over <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F" alt="F" title="F" />, then <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20f%28T%29%20%3D%200" alt="f(T) = 0" title="f(T) = 0" /> if and only if <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20f%20%3D%20pg" alt="f = pg" title="f = pg" />, where <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20g" alt="g" title="g" /> is some polynomial over <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F" alt="F" title="F" />.</p>
+<p><strong>Definition.</strong> Let <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" /> be a linear operator on a finite-dimensional vector space <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20V" alt="V" title="V" /> over the field <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F" alt="F" title="F" />. The <strong>minimal polynomial</strong> for <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" /> is the (unique) monic generator of the ideal of polynomials over <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F" alt="F" title="F" /> which annihilate <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" />.</p>
+<p>The name ‘minimal polynomial’ stems from the fact that the generator of a polynomial ideal is characterized by being the monic polynomial of minimum degree in the ideal. That means that the minimal polynomial <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20p" alt="p" title="p" /> for the linear operator <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" /> is uniquely determined by these three properties:</p>
+<ol type="1">
+<li><img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20p" alt="p" title="p" /> is a monic polynomial over the scalar field F.</li>
+<li><img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20p%28T%29%20%3D%200." alt="p(T) = 0." title="p(T) = 0." /></li>
+<li>No polynomial over <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F" alt="F" title="F" /> which annihilates <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20T" alt="T" title="T" /> has smaller degree than <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20p" alt="p" title="p" /> has.</li>
+</ol>
+<p>If <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20A" alt="A" title="A" /> is an <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20n%5Ctimes%20n" alt="n\times n" title="n\times n" /> matrix over <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F" alt="F" title="F" />, we define the <strong>minimal polynomial</strong> for <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20A" alt="A" title="A" /> in an analogous way, as the unique monic generator of the ideal of all polynomials over <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F" alt="F" title="F" /> which annihilate <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20A" alt="A" title="A" />.</p>
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file was generated by dvisvgm 1.15.1 -->
+<svg height="0pt" version="1.1" viewBox="0 0 0 0" width="0pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id='page1' transform='matrix(1.13 0 0 1.13 0 0)'/>
+</svg>
+</body>
+</html>
