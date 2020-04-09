@@ -15,7 +15,7 @@ This is an experimental script (first version).
 
 ## Usage:
 1. Create a mail.md file inside the repository's directory.
-2. Fill mail.md with the body of your message, following standard markdown rules, except for when inserting LaTeX characters and/or environments. Then, wrap your LaTeX code with $ if you want to make it inline, or with $$ if you want it to be a proper environment.
+2. Fill mail.md with the body of your message, following [standard markdown rules](https://learnxinyminutes.com/docs/markdown/), except for when inserting LaTeX characters and/or environments. Then, wrap your LaTeX code with $ if you want to make it inline, or with $$ if you want it to be a proper environment.
 	* As an example, if you want to create an align environment, you would do:
 
 		```
