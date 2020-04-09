@@ -18,13 +18,12 @@ This is an experimental script (first version).
 2. Fill mail.md with the body of your message, following standard markdown rules, except for when inserting LaTeX characters and/or environments. Then, wrap your LaTeX code with $ if you want to make it inline, or with $$ if you want it to be a proper environment.
 	* As an example, if you want to create an align environment, you would do:
 
-	```$$
-	\begin{align}
-	... expressions here ...
-	\end{align}
-	$$
-	```
-
+		$$
+		\begin{align}
+		... expressions here ...
+		\end{align}
+		$$
+		
 	* A real example is present in the examples folder. For more information, check out [pandoc's guide on including math.](https://pandoc.org/MANUAL.html#math)
 3. Run either create.bat (on Windows) or make (on Linux) to create mail.html.
 4. Compose your e-mail and include mail.html as the body.
