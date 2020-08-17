@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 if [ "$1" == "--help" ] || [ "$2" == "" ]; then
     echo "Usage: $0 <recipient> <subject> <html file>"
     exit
 fi
 
-neomutt -e "set content_type=text/html" $1 -s $2 < $3
+mutt -e "set content_type=text/html" $1 -s $2 < $3

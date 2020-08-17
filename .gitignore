@@ -1,0 +1,8 @@
+# ignore all md files except README:
+*.md
+!README.md
+
+# ignore all produced files
+*/*.html.j
+*/*.html.w
+*/*.html.p

@@ -1,5 +1,11 @@
-mail: mail.md
-	pandoc mail.md -t html -s -o mail.html --webtex https://latex.codecogs.com/svg.latex? --metadata title=" "
+%.html.w: %.md
+	pandoc $< -t html -s -o $@ --webtex https://latex.codecogs.com/svg.latex? --metadata title=" "
 
-pdf: mail.md
-	cat mail.md| sed 's/\$$\$$//g' | pandoc -o mail.pdf
+%.html.j: %.md
+	pandoc $< -t html -s -o $@ --mathjax --metadata title=" "
+
+%.html.p: %.md
+	cat $< | sed 's/\$$\$$//g' | pandoc -t pdf -o $@
+
+clean:
+	rm -vf ./*.html.j ./*.html.p ./*.html.w

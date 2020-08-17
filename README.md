@@ -14,8 +14,8 @@ This is an experimental script (first version).
 	* If you do not have git installed in your machine, you can use the green 'Clone or download' button instead.
 
 ## Usage:
-1. Create a mail.md file inside the repository's directory.
-2. Fill mail.md with the body of your message, following [standard markdown rules](https://learnxinyminutes.com/docs/markdown/), except for when inserting LaTeX characters and/or environments. Then, wrap your LaTeX code with $ if you want to make it inline, or with $$ if you want it to be a proper environment.
+1. Create an `.md` file inside the repository's directory.
+2. Fill the `.md` file with the body of your message, following [standard markdown rules](https://learnxinyminutes.com/docs/markdown/), except for when inserting LaTeX characters and/or environments. Then, wrap your LaTeX code with $ if you want to make it inline, or with $$ if you want it to be a proper environment.
 	* As an example, if you want to create an align environment, you would do:
 
 		```
@@ -32,11 +32,8 @@ This is an experimental script (first version).
 	* For Thunderbird, one can [Insert -> HTML and copy the content inside](https://www.joshcanhelp.com/how-to-send-html-emails-for-free-using-mozilla-thunderbird/) the <body></body> tags in the file mail.html.
 
 
-TODO:
-
-* Switch to cmake for makefile
+## TODO:
 * Add installation process guide for windows & linux
     - Preferred smtp-supporting mail client
-    - Cmake for Windows, Linux
-    - TeXlive installation
+    - TeXlive installation (optional)
     - Pandoc installation
